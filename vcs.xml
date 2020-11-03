@@ -56,7 +56,7 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/DevWorkspaces/timebook" />
+    <option name="cloneParentDir" value="C:\Users\janusz\DevWorkspaces\timebook" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
