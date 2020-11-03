@@ -1,0 +1,86 @@
+<templateSet group="jh">
+  <template name="jhg_logDebugInfo" value="LogTool.logDebugInfo(&quot;-----&gt; $CLASS$.$METHOD$(): &quot; + $PARAMS$$END$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhg_logError" value="LogTool.log(&quot;$CLASS$&quot;, &quot;$METHOD$()&quot;, Level.SEVERE, &quot;ERROR: &quot; + $PARAMS$$END$.getMessage());" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhg_log" value="LogTool.logDebugInfo(&quot;-----&gt; $CLASS$.$METHOD$(): &quot; + $PARAM$ $END$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="qualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhg_logWarning" value="LogTool.log(&quot;$CLASS$&quot;, &quot;$METHOD$()&quot;, Level.WARNING, &quot;FAILURE: $END$&quot; + &quot;, ErrorCode: &quot; + $PARAMS$ + &quot;, Message: &quot; + result.getMessage());&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jh_switch" value="switch ($PARAMS$) {&#10;&#9;case $value$: {&#10;&#9;&#9;$END$&#10;&#9;&#9;break;&#10;&#9;}&#10;&#9;default:&#10;&#9;&#9;break;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="value" expression="" defaultValue="value" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jh_todo" value="// TODO (jh): $CLASS$.$METHOD$()$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhj_logInfo" value="LOGGER.info(&quot;---&gt; $CLASS$.$METHOD$(): &quot; + $PARAM$ $END$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="qualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhj_logInfo_ShortPath" value="LOGGER.info(&quot;---&gt; $CLASS$.$METHOD$(): &quot; + $PARAMS$$END$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhj_logError" value="LOGGER.error(&quot;$CLASS$.$METHOD$()&quot;, e $END$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhj_logWarning" value="LOGGER.warn(&quot;$CLASS$.$METHOD$()&quot;, e$END$);&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jhj_logInfo_FormatMessage" value="LOGGER.info(Utils.formatLoggerMessage(processID, &quot;$CLASS$.$METHOD$()&quot;, $PARAMS$$END$));" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMS" expression="suggestFirstVariableName(methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

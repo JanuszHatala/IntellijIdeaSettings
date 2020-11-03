@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.mposs.webapp.common.LogTool.logDebugInfo(msg)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
