@@ -74,6 +74,10 @@
           <option name="url" value="https://github.com/testcontainers/testcontainers-java.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/nkoder/postgresql-embedded-example.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\DevWorkspaces\side_projects" />
