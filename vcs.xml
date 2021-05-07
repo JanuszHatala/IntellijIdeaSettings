@@ -122,6 +122,10 @@
           <option name="url" value="git@bitbucket.org:timebookdev/slack.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:timebookdev/container.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\DevWorkspaces\timebook" />
