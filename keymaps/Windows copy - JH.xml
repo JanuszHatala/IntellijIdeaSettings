@@ -2,12 +2,20 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
+  <action id="ChangesView.Revert" />
   <action id="Console.TableResult.CloneColumn" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="DatabaseView.Tools.RevertChanges" />
   <action id="FixDocComment">
     <keyboard-shortcut first-keystroke="shift ctrl alt d" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -15,5 +23,9 @@
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
   </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
   <action id="UML.ShowChanges" />
+  <action id="Vcs.RollbackChangedLines" />
 </keymap>
