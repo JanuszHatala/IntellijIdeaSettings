@@ -14,6 +14,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="VisualVMLauncher">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.haulmont.jpab">
           <value>
             <PluginData>
