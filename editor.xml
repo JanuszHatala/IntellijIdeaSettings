@@ -8,11 +8,6 @@
         <entry key="vcs.code.vision" value="Default" />
       </map>
     </option>
-    <option name="disabledCodeVisionProviderIds">
-      <set>
-        <option value="vcs.code.vision" />
-      </set>
-    </option>
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
@@ -22,7 +17,7 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="JAVA.java.implicit.types" />
+    <option name="lastViewedProviderKeyId" value="" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
