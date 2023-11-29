@@ -1,0 +1,41 @@
+<application>
+  <component name="com.github.evgenys91.machinet.common.feedback.FeedbackState">
+    <option name="feedbackDTOByID">
+      <map>
+        <entry key="TeamServiceTest.java_setup">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="TeamServiceTest.java" />
+              <option name="myMethodName" value="setup" />
+              <option name="myCode" value="@BeforeEach&#10;    public void setup() {&#10;        when(teamService.validateTeamData(any(), any())).thenReturn(Mono.just(true));&#10;    }" />
+              <option name="myGeneratedDate" value="1701245406374" />
+              <option name="myRequestId" value="fc32c6" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="TeamServiceTest.java_testCreateOrUpdateTeamWhenDataIsInvalidThenThrowsBadRequestException">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="TeamServiceTest.java" />
+              <option name="myMethodName" value="testCreateOrUpdateTeamWhenDataIsInvalidThenThrowsBadRequestException" />
+              <option name="myCode" value="@Test&#10;    public void testCreateOrUpdateTeamWhenDataIsInvalidThenThrowsBadRequestException() {&#10;        // Arrange&#10;        UpdateOrCreateTeamParams params = new UpdateOrCreateTeamParams(&#10;                new Team(), UUID.randomUUID(), UUID.randomUUID(), true, UUID.randomUUID()&#10;        );&#10;        when(teamService.validateTeamData(any(), any())).thenReturn(Mono.empty());&#10;&#10;        // Act&#10;        Mono&lt;Team&gt; result = teamService.createOrUpdateTeam(params);&#10;&#10;        // Assert&#10;        StepVerifier.create(result)&#10;                .expectErrorMatches(throwable -&gt; throwable instanceof BadRequestException)&#10;                .verify();&#10;    }" />
+              <option name="myGeneratedDate" value="1701245406374" />
+              <option name="myRequestId" value="fc32c6" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+        <entry key="TeamServiceTest.java_testCreateOrUpdateTeamWhenDataIsValidThenReturnsTeam">
+          <value>
+            <FeedbackDTO>
+              <option name="myFileName" value="TeamServiceTest.java" />
+              <option name="myMethodName" value="testCreateOrUpdateTeamWhenDataIsValidThenReturnsTeam" />
+              <option name="myCode" value="@Test&#10;    public void testCreateOrUpdateTeamWhenDataIsValidThenReturnsTeam() {&#10;        // Arrange&#10;        UpdateOrCreateTeamParams params = new UpdateOrCreateTeamParams(&#10;                new Team(), UUID.randomUUID(), UUID.randomUUID(), true, UUID.randomUUID()&#10;        );&#10;        when(teamService.createOrUpdateTeam(params)).thenReturn(Mono.just(new Team()));&#10;&#10;        // Act&#10;        Mono&lt;Team&gt; result = teamService.createOrUpdateTeam(params);&#10;&#10;        // Assert&#10;        StepVerifier.create(result)&#10;                .expectNextMatches(team -&gt; team != null)&#10;                .verifyComplete();&#10;    }" />
+              <option name="myGeneratedDate" value="1701245406374" />
+              <option name="myRequestId" value="fc32c6" />
+            </FeedbackDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
