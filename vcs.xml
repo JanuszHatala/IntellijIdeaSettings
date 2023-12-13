@@ -19,6 +19,7 @@
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/DevWorkspaces/timebook/auth" />
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="false" />
     <option name="SHOW_DIFF_ON_DOUBLE_CLICK" value="true" />
   </component>
 </application>
