@@ -368,7 +368,7 @@
           "contentUiType": "COMBO",
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.10738696,
+          "weight": 0.13034599,
           "sideWeight": 0.5003799
         },
         {
@@ -381,7 +381,7 @@
           "order": 2,
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.10738696,
+          "weight": 0.13034599,
           "sideWeight": 0.49962008,
           "isSplit": true
         },
@@ -442,13 +442,6 @@
           "anchor": "BOTTOM",
           "isShowStripeButton": false,
           "weight": 0.329619
-        },
-        {
-          "id": "Debug",
-          "order": 10,
-          "anchor": "BOTTOM",
-          "isShowStripeButton": false,
-          "weight": 0.4397547
         },
         {
           "id": "Endpoints",
@@ -529,7 +522,7 @@
           "id": "Version Control",
           "order": 10,
           "anchor": "RIGHT",
-          "weight": 0.45535243,
+          "weight": 0.46047574,
           "isSplit": true
         },
         {
@@ -550,30 +543,37 @@
           "id": "Services",
           "order": 13,
           "anchor": "RIGHT",
-          "weight": 0.46069926,
+          "weight": 0.4059194,
           "isSplit": true
         },
         {
           "id": "Find",
           "order": 14,
           "anchor": "RIGHT",
-          "weight": 0.46069926,
+          "weight": 0.46057934,
           "isSplit": true
         },
         {
           "id": "Run",
           "order": 15,
           "anchor": "RIGHT",
+          "weight": 0.46047574,
+          "isSplit": true
+        },
+        {
+          "id": "Debug",
+          "order": 16,
+          "anchor": "RIGHT",
           "isVisible": true,
-          "weight": 0.46069926,
+          "weight": 0.460716,
           "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.10738696,
+        "left": 0.13034599,
         "bottom": 0.46067822,
-        "right": 0.46069926
+        "right": 0.460716
       }
     }
   }
