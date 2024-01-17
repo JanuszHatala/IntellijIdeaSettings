@@ -1,6 +1,6 @@
 <application>
   <component name="ToolWindowLayout"><![CDATA[{
-  "activeLayoutName": "JH standard",
+  "activeLayoutName": "JH wide screen",
   "layouts": {
     "Custom": {
       "v2": [
@@ -368,8 +368,8 @@
           "contentUiType": "COMBO",
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.13034599,
-          "sideWeight": 0.5003799
+          "weight": 0.13034743,
+          "sideWeight": 0.500646
         },
         {
           "id": "Commit",
@@ -381,8 +381,8 @@
           "order": 2,
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.13034599,
-          "sideWeight": 0.49962008,
+          "weight": 0.13034743,
+          "sideWeight": 0.499354,
           "isSplit": true
         },
         {
@@ -415,13 +415,6 @@
           "id": "Problems",
           "order": 1,
           "anchor": "BOTTOM"
-        },
-        {
-          "id": "Build",
-          "order": 4,
-          "anchor": "BOTTOM",
-          "isShowStripeButton": false,
-          "weight": 0.35524428
         },
         {
           "id": "Dependencies",
@@ -567,11 +560,18 @@
           "isVisible": true,
           "weight": 0.460716,
           "isSplit": true
+        },
+        {
+          "id": "Build",
+          "order": 17,
+          "anchor": "RIGHT",
+          "weight": 0.35524428,
+          "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.13034599,
+        "left": 0.13034743,
         "bottom": 0.46067822,
         "right": 0.460716
       }
