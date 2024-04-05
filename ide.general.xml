@@ -13,5 +13,6 @@
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="go.run.processes.with.pty" value="false" />
   </component>
 </application>
