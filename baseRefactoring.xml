@@ -8,6 +8,7 @@
     <option name="TYPE_COOK_COOK_OBJECTS" value="true" />
     <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="INTRODUCE_CONSTANT_REPLACE_ALL" value="true" />
     <option name="RENAME_ACCESSORS" value="false" />
   </component>
 </application>
