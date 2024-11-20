@@ -171,7 +171,7 @@
     <jdk version="2">
       <name value="openjdk-17" />
       <type value="JavaSDK" />
-      <version value="java version &quot;17.0.2&quot;" />
+      <version value="Oracle OpenJDK 17.0.2" />
       <homePath value="$USER_HOME$/.jdks/openjdk-17.0.2" />
       <roots>
         <annotationsPath>
