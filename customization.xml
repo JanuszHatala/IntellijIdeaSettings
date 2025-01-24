@@ -79,6 +79,30 @@
       <path value="Main Toolbar" />
       <path value="Right" />
     </group>
+    <group value="Forward" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+    </group>
+    <group value="Back" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+    </group>
+    <group value="$Redo" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+    </group>
+    <group value="$Undo" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+    </group>
     <group value="CodeWithMeToolbarGroupNewUi" is_group="true" forse_popup="false" action_type="1" position="5">
       <path value="root" />
       <path value="Main Toolbar" />
