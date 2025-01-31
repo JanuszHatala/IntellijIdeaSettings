@@ -2,7 +2,7 @@
   <component name="LocalDatabaseDriverManager" version="201">
     <driver id="exasol" name="mail" />
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
   </component>
 </application>
