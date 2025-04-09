@@ -499,6 +499,30 @@
       </roots>
     </jdk>
     <jdk version="2">
+      <name value="Python 3.9" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.7" />
+      <homePath value="$USER_HOME$/AppData/Local/Programs/Python/Python39/python.exe" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional SDK_UUID="f263a6b8-1124-4f2e-a930-840352243480">
+        <setting name="FLAVOR_ID" value="WinPythonSdkFlavor" />
+        <setting name="FLAVOR_DATA" value="{}" />
+      </additional>
+    </jdk>
+    <jdk version="2">
       <name value="17" />
       <type value="JavaSDK" />
       <version value="Oracle OpenJDK 17.0.2" />
