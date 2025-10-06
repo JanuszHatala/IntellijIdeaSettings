@@ -1,8 +1,6 @@
 <application>
   <component name="FileTypeManager" version="19">
     <extensionMap>
-      <removed_mapping pattern=".devcontainer.json" type="JSON5" />
-      <removed_mapping pattern="devcontainer.json" type="JSON5" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -11,6 +9,8 @@
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
+      <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
     </extensionMap>
   </component>
 </application>
