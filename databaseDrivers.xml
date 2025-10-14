@@ -3,5 +3,6 @@
     <driver id="postgresql">
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
+    <driver id="exasol" name="mail" />
   </component>
 </application>

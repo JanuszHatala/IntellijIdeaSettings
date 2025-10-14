@@ -14,6 +14,5 @@
     <entry key="BSP.experimental.feature.enabled" value="false" source="SYSTEM" />
     <entry key="debugger.new.tool.window.layout" value="true" source="SYSTEM" />
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
-    <entry key="idea.islands.feedback2.enabled" value="false" source="MANAGER" />
   </component>
 </application>
