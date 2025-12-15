@@ -14,7 +14,5 @@
     <entry key="BSP.experimental.feature.enabled" value="false" source="SYSTEM" />
     <entry key="debugger.new.tool.window.layout" value="true" source="SYSTEM" />
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
-    <entry key="matterhorn.jcp.analytics.endpoint.url" value="https://api.jetbrains.cloud/analytics/events/push" source="MANAGER" />
-    <entry key="matterhorn.jcp.analytics.enabled" value="true" source="MANAGER" />
   </component>
 </application>
