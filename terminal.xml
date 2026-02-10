@@ -1,5 +1,9 @@
 <application>
   <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 50
+  "enterKeyPressedTimes": 88
 }]]></component>
+  <component name="TerminalOptionsProvider">
+    <option name="cursorShape" value="VERTICAL" />
+    <option name="myCopyOnSelection" value="true" />
+  </component>
 </application>
