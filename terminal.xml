@@ -1,6 +1,6 @@
 <application>
   <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 310
+  "enterKeyPressedTimes": 317
 }]]></component>
   <component name="TerminalOptionsProvider">
     <option name="cursorShape" value="VERTICAL" />
